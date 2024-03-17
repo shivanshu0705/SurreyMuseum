@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Connect with us effortlessly through our Contact Us page. Fill out our user-friendly form, find essential contact information, and address any complaints or grievances with our dedicated section.">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/city-surrey-logo.png">
+</head>
+
+<body>
+    <header id="contacthero">
+
+        <nav>
+            <div>
+                <a href="index.html" id="logo">
+                    <div id="logo-img"></div>
+                    <h2>Surrey Museum</h2>
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="references.html">Refrences</a></li>
+                </ul>
+                <button id="menu-btn">&#9776;</button>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <div>
+        <h1 class="heading-primary">Contact Us</h1>
+        <p>Welcome to the Contact Us page of Surrey Museum's official website. We are delighted to assist you and
+            provide
+            information about this beautiful Museum. If you are looking to
+            connect with Surrey Museum, this page is your gateway to reaching us. We value your
+            feedback, inquiries, and suggestions, so please feel free to get in touch.</p>
+
+        
+            <form>
+                <h2>Contact Us</h2>
+                <p>Field marked with (<sub><span style="color:red">*</span></sub>) are required. </p>
+                <label for="name">Name:<sup><span style="color:red">*</span></sup></label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:<sup><span style="color:red">*</span></sup></label>
+                <input type="email" id="email" name="email" required>
+
+
+                <label for="query">Choose a query:<sup><span style="color:red">*</span></sup></label>
+                <select id="query" name="query">
+                    <option value="Complaint regarding Staff">Complaint regarding Staff</option>
+                    <option value="Complaint regarding Cleanliness">Complaint regarding Cleanliness</option>
+                    <option value="Complaint regarding Misleading Information">Complaint regarding Misleading Information</option>
+                    <option value="General Complaint">General Complaint</option>
+                </select>
+
+                <label for="message">Message:<sup><span style="color:red">*</span></sup></label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+
+                <button type="submit">Submit</button>
+            </form>
+       
+        </div>
+
+
+        <details>
+            <summary class="heading-primary">Contact Information</summary>
+            <ul>
+                <li><strong>Address:</strong> 13450 - 104 Avenue, Surrey, BC, Canada, V3t 1V8
+                </li>
+                <li><strong>Phone:</strong> +1 123-456-7890</li>
+                <li><strong>Email:</strong> <a href="mailto:info@surreymuseum.ca">info@surreymuseum.ca</a></li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="heading-primary">Office Hours</summary>
+            <p>Our office hours are as follows:</p>
+            <ul>
+                <li>Monday to Friday: 9:00 AM to 5:00 PM</li>
+                <li>Saturday: 9:00 AM to 1:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary class="heading-primary">Connect with Us</summary>
+            <p>In addition to reaching out via phone and email, we also encourage you to connect with us on social media
+                platforms to stay updated on the latest news, events, and developments in Surrey:</p>
+            <ul id="contactlist">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+               <li><a href="#" class="fa fa-twitter"></a></li>
+             <li> <a href="#" class="fa fa-instagram"></a></li>
+            </ul>
+        </details>
+
+    </main>
+    <footer>
+        <p>13450 - 104 Avenue, Surrey, BC, Canada, V3T 1V8</p>
+        <p>copyright &copy; 2024 Shivanshu Parbhakar</p>
+
+    </footer>
+</body>
+
+</html>
